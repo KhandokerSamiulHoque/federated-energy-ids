@@ -1,5 +1,7 @@
 # Federated Intrusion Detection for Connected Energy Devices
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23537402.svg)](https://doi.org/10.5281/zenodo.23537402)
+
 These are benchmarks for distributed (federated) AI that detects network attacks across many sites without pooling raw data. They are the completed first stage of an independent project on secure AI monitoring for connected solar and grid-edge systems, by Khandoker Samiul Hoque (ORCID 0009-0008-0756-2395).
 
 ## Contents
@@ -31,3 +33,6 @@ cd poisoning_study && python run_fedids_extension_experiment.py
 - Multiple adaptive attacks.
 
 License: MIT (code). NSL-KDD is not redistributed here.
+
+## Archived release
+Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23537403](https://doi.org/10.5281/zenodo.23537403). To cite the latest version instead, use [doi:10.5281/zenodo.23537402](https://doi.org/10.5281/zenodo.23537402).

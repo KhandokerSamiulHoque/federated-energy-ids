@@ -7,3 +7,12 @@ authors:
     orcid: "https://orcid.org/0009-0008-0756-2395"
 license: MIT
 repository-code: "https://github.com/KhandokerSamiulHoque/federated-energy-ids"
+doi: "10.5281/zenodo.23537403"
+version: "1.0.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23537402"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23537403"
+    description: "Version 1.0.0"
