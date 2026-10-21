@@ -1,0 +1,108 @@
+{
+  "repeat_seeds": [
+    73,
+    193,
+    307,
+    421,
+    557
+  ],
+  "rounds": 18,
+  "clients": 5,
+  "dirichlet_alpha": 0.35,
+  "attack": {
+    "threat_model": "The largest simulated client reverses and scales its local model update by 5 in every round.",
+    "scale": 5.0,
+    "clipping_norm": 1.0
+  },
+  "privacy_accountability": {
+    "data_locality": "Raw training records remain within simulated client partitions during optimization.",
+    "formal_differential_privacy": false,
+    "claim_boundary": "No epsilon-delta differential-privacy guarantee is claimed; secure aggregation, authenticated clients, and formal accounting remain deployment requirements."
+  },
+  "summary": [
+    {
+      "method": "Clipped FedAvg attacked",
+      "accuracy_mean": 0.4014017033356991,
+      "accuracy_std": 0.18229366363673635,
+      "balanced_accuracy_mean": 0.3876480581006469,
+      "balanced_accuracy_std": 0.1986282544150383,
+      "precision_mean": 0.49974907885494774,
+      "precision_std": 0.20186849344454674,
+      "recall_mean": 0.48696329774799346,
+      "recall_std": 0.11820786273497211,
+      "f1_mean": 0.4864943998833159,
+      "f1_std": 0.13815463937296799,
+      "roc_auc_mean": 0.34767936030306484,
+      "roc_auc_std": 0.2656615532218093,
+      "pr_auc_mean": 0.5440441620764369,
+      "pr_auc_std": 0.19902026599457442,
+      "false_positive_rate_mean": 0.7116671815466996,
+      "false_positive_rate_std": 0.3317943421650238
+    },
+    {
+      "method": "Coordinate median attacked",
+      "accuracy_mean": 0.7565649396735273,
+      "accuracy_std": 0.0170375438893244,
+      "balanced_accuracy_mean": 0.7787508797756286,
+      "balanced_accuracy_std": 0.015453214820152154,
+      "precision_mean": 0.9311830350788799,
+      "precision_std": 0.02183157918965595,
+      "recall_mean": 0.6185459362580846,
+      "recall_std": 0.03309377986254094,
+      "f1_mean": 0.7427427089905501,
+      "f1_std": 0.02305253464638455,
+      "roc_auc_mean": 0.9093292129449851,
+      "roc_auc_std": 0.015481942044487737,
+      "pr_auc_mean": 0.9275237936337989,
+      "pr_auc_std": 0.011004683302445539,
+      "false_positive_rate_mean": 0.06104417670682731,
+      "false_positive_rate_std": 0.022530034797857836
+    },
+    {
+      "method": "FedAvg attacked",
+      "accuracy_mean": 0.25141057487579843,
+      "accuracy_std": 0.010664471305506396,
+      "balanced_accuracy_mean": 0.22406581852729257,
+      "balanced_accuracy_std": 0.009121436503621863,
+      "precision_mean": 0.36381170473196106,
+      "precision_std": 0.010547785532258361,
+      "recall_mean": 0.4215226369516092,
+      "recall_std": 0.020673515370303517,
+      "f1_mean": 0.3905153545601515,
+      "f1_std": 0.014899501867928287,
+      "roc_auc_mean": 0.1933115346455765,
+      "roc_auc_std": 0.021144843892040438,
+      "pr_auc_mean": 0.41723698798875164,
+      "pr_auc_std": 0.010113559845968205,
+      "false_positive_rate_mean": 0.973390999897024,
+      "false_positive_rate_std": 0.005123819535396685
+    },
+    {
+      "method": "FedAvg benign",
+      "accuracy_mean": 0.7546930447125622,
+      "accuracy_std": 0.00969159418923207,
+      "balanced_accuracy_mean": 0.7759142105629278,
+      "balanced_accuracy_std": 0.007797912396295312,
+      "precision_mean": 0.9208359588012917,
+      "precision_std": 0.0036771765497997265,
+      "recall_mean": 0.622675913660095,
+      "recall_std": 0.0215072215307786,
+      "f1_mean": 0.7427482874284675,
+      "f1_std": 0.014059784638375152,
+      "roc_auc_mean": 0.9045996107421892,
+      "roc_auc_std": 0.004594023833659434,
+      "pr_auc_mean": 0.924288857028813,
+      "pr_auc_std": 0.003131687967436411,
+      "false_positive_rate_mean": 0.07084749253423953,
+      "false_positive_rate_std": 0.006043209041755215
+    }
+  ],
+  "limitations": [
+    "NSL-KDD is a historical benchmark and is not operational energy-network traffic.",
+    "Clients are simulated partitions of a centralized public dataset rather than separate organizations or devices.",
+    "The reversed-update experiment represents one bounded poisoning scenario and is not a complete adversarial evaluation.",
+    "Coordinate-wise median robustness with five clients does not establish Byzantine tolerance for arbitrary attacks.",
+    "Federated data locality is not equivalent to formal privacy; no differential-privacy guarantee is claimed.",
+    "Binary aggregate metrics conceal weak recall for rare attack families."
+  ]
+}

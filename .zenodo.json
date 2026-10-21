@@ -1,0 +1,20 @@
+{
+  "title": "Federated Intrusion Detection for Connected Energy Devices: Non-IID and Poisoning Benchmarks",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Hoque, Khandoker Samiul",
+      "orcid": "0009-0008-0756-2395"
+    }
+  ],
+  "description": "Reproducible federated intrusion-detection benchmarks on NSL-KDD: a data-local FedAvg baseline and a five-seed model-poisoning resilience study comparing FedAvg, clipped FedAvg, and coordinate-median aggregation.",
+  "license": "MIT",
+  "keywords": [
+    "federated learning",
+    "intrusion detection",
+    "model poisoning",
+    "robust aggregation",
+    "energy cybersecurity",
+    "NSL-KDD"
+  ]
+}
