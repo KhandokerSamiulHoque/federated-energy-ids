@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23537402.svg)](https://doi.org/10.5281/zenodo.23537402)
 
-These are benchmarks for distributed (federated) AI that detects network attacks across many sites without pooling raw data. They are the completed first stage of an independent project on secure AI monitoring for connected solar and grid-edge systems, by Khandoker Samiul Hoque (ORCID 0009-0008-0756-2395).
+These are benchmarks for distributed (federated) AI that detects network attacks across many sites without pooling raw data. They are the completed first stage of a project on secure AI monitoring for connected solar and grid-edge systems, by Khandoker Samiul Hoque (ORCID 0009-0008-0756-2395) and Md Boktiar Hossain (Department of Information and Communication Engineering, University of Rajshahi).
 
 ## Contents
 | Folder | Study | Key result |

@@ -5,10 +5,14 @@ authors:
   - family-names: Hoque
     given-names: Khandoker Samiul
     orcid: "https://orcid.org/0009-0008-0756-2395"
+  - family-names: Hossain
+    given-names: Md Boktiar
+    affiliation: "Department of Information and Communication Engineering, University of Rajshahi"
 license: MIT
 repository-code: "https://github.com/KhandokerSamiulHoque/federated-energy-ids"
 doi: "10.5281/zenodo.23537403"
 version: "1.0.0"
+date-released: 2026-10-21
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23537402"
