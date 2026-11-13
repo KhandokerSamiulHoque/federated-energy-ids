@@ -10,9 +10,9 @@ authors:
     affiliation: "Department of Information and Communication Engineering, University of Rajshahi"
 license: MIT
 repository-code: "https://github.com/KhandokerSamiulHoque/federated-energy-ids"
-doi: "10.5281/zenodo.23537403"
-version: "1.0.0"
-date-released: 2026-10-21
+doi: "10.5281/zenodo.23537402"
+version: "1.0.1"
+date-released: 2026-11-13
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23537402"

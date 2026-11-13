@@ -35,4 +35,4 @@ cd poisoning_study && python run_fedids_extension_experiment.py
 License: MIT (code). NSL-KDD is not redistributed here.
 
 ## Archived release
-Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23537403](https://doi.org/10.5281/zenodo.23537403). To cite the latest version instead, use [doi:10.5281/zenodo.23537402](https://doi.org/10.5281/zenodo.23537402).
+Each version is archived on Zenodo. Version 1.0.1 (13 Nov 2026) adds co-author Md Boktiar Hossain to the metadata, and its code and results are the same as 1.0.0. Version 1.0.0 is [doi:10.5281/zenodo.23537403](https://doi.org/10.5281/zenodo.23537403), and its record lists one author. To cite the latest version, use the concept DOI [10.5281/zenodo.23537402](https://doi.org/10.5281/zenodo.23537402).
